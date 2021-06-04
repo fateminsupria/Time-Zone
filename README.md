@@ -10,11 +10,11 @@ that page if you click on Buy Now Button you will get
 confirmation message and get your Watch.
 
 ## Features
---It will help to find any branded watch like Rolex , Omega etc.
---If you want , you can see watch details like price , picture , color etc.
---The system has some additional features that can make it more acceptable.
---Most of the people face difficulties in getting any watch details in a one app . This application can solve this problem easily.
---Easy to use
+It will help to find any branded watch like Rolex , Omega etc.
+If you want , you can see watch details like price , picture , color etc.
+The system has some additional features that can make it more acceptable.
+Most of the people face difficulties in getting any watch details in a one app . This application can solve this problem easily.
+Easy to use
 
 # Used Tools In Project
 ## Technology:
