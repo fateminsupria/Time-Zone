@@ -18,10 +18,11 @@ const Rollex = ({ navigation }) => {
                 <View style={{ width: "10%", paddingLeft: 20 }}>
                     <TouchableOpacity onPress={() => navigation.goBack()}>
                         <Image
-                            // source={require('../images/17.png')}
-                            // style={{ marginVertical: 40 }}
+                            source={require('../images/17.png')}
+                            style={{ marginVertical: 40 }}
                         />
                     </TouchableOpacity>
+                    
                 </View>
                 <View style={{ width: "90%" }}>
                     <SwiperComponentRollex />
