@@ -12,7 +12,7 @@ const Profile = () => {
             <Text style={{
                                 fontWeight:"bold",
                                 fontSize:18,
-                                color:"red"
+                                color:"yellow"
             }}> Work Processing Of This Page ...... </Text>
         </View>
     )
