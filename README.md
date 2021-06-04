@@ -24,11 +24,17 @@ confirmation message and get your Watch.
 ## Technology:
 
 •React Native
+
 •React Navigation
+
 •Expo
+
 •React Native Swiper
+
 •JavaScript
+
 •CSS3
+
 •Android Studio
 
 ## Deploy Tools:
