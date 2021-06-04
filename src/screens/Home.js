@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, Text, Image, ImageBackground } from 'react-native'
+import { View, Text, Image} from 'react-native'
 import { TextInput, ScrollView, TouchableOpacity } from 'react-native-gesture-handler'
 import { LinearGradient } from 'expo-linear-gradient'
 
@@ -25,7 +25,7 @@ const Home = ({ navigation }) => {
                     }}
                 />
                 <View style={{
-                    flexDirection: "row",
+                    flexDirection: "column",
                     alignItems: "center",
                     marginTop: 25,
                     width: "100%"
@@ -33,16 +33,10 @@ const Home = ({ navigation }) => {
                     <View style={{ width: "50%" }}>
                         <Text style={{
                             fontSize: 28,
-                            color: "#FFF",
+                            color: "#000",
                             fontWeight: "bold"
                         }}> Time Zone </Text>
                     </View>
-                    {/* <View style={{width:"50%",alignItems:"flex-end"}}>
-                        <Image
-                            source={require('../images/g.png')}
-                            style={{height:60,width:60}}
-                        />
-                   </View> */}
                 </View>
             </View>
             <LinearGradient
@@ -54,30 +48,6 @@ const Home = ({ navigation }) => {
                     marginTop: -45
                 }}
             >
-                <View style={{
-                    backgroundColor: "#E6E6FA",
-                    paddingVertical: 8,
-                    paddingHorizontal: 20,
-                    marginHorizontal: 20,
-                    borderRadius: 15,
-                    marginTop: 25,
-                    flexDirection: "row",
-                    alignItems: "center"
-                }}>
-                    <TextInput
-                        placeholder="Search"
-                        placeholderTextColor="#191970"
-                        style={{
-                            fontWeight: "bold",
-                            fontSize: 18,
-                            width: 260
-                        }}
-                    />
-                    <Image
-                        source={require('../images/3.png')}
-                        style={{ height: 20, width: 20 }}
-                    />
-                </View>
             </LinearGradient>
 
 
@@ -174,7 +144,7 @@ const Home = ({ navigation }) => {
                         color: "#b1e5d3",
                         paddingTop: 3
                     }}>
-                        United States
+                        Series III
                         </Text>
                 </TouchableOpacity>
 
@@ -215,7 +185,7 @@ const Home = ({ navigation }) => {
                         color: "#b1e5d3",
                         paddingTop: 3
                     }}>
-                        United States
+                        Series II
                         </Text>
                 </TouchableOpacity>
 
@@ -256,46 +226,11 @@ const Home = ({ navigation }) => {
                         color: "#b1e5d3",
                         paddingTop: 3
                     }}>
-                        United States
+                        Series I
                         </Text>
                 </TouchableOpacity>
 
             </ScrollView>
-
-            <View style={{
-                flexDirection: "row",
-                paddingHorizontal: 20,
-                width: "100%",
-                alignItems: "center",
-                marginTop: -80,
-            }}>
-                <View style={{ width: "50%" }}>
-                    <Text style={{
-                        fontWeight: "bold",
-                        fontSize: 17,
-                        color: "#585a61"
-                    }}></Text>
-                    <View style={{
-                        height: 4,
-                        backgroundColor: "#b1e5d3",
-                        width: 0,
-                        marginTop: -5
-                    }}>
-
-                    </View>
-
-                </View>
-                <View style={{ width: "50%", alignItems: "flex-end" }}>
-                    <View style={{
-                        backgroundColor: "0",
-                        paddingHorizontal: 0,
-                        paddingVertical: 0,
-                        borderRadius: 0
-                    }}>
-                        
-                    </View>
-                </View>
-            </View>
         </View>
     )
 }
