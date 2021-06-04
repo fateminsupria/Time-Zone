@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, Text, Image } from 'react-native'
+import { View, Text, Image, Alert } from 'react-native'
 import { TouchableOpacity } from 'react-native-gesture-handler'
 import SwiperComponentRollex from '../components/SwiperComponentRollex'
 
@@ -76,7 +76,13 @@ const Rollex = ({ navigation }) => {
                     justifyContent: "center"
                 }}>
                     <TouchableOpacity
-                        onPress={() => alert('Your Order Has Been Successful')}>
+                        onPress={() => {
+                            Alert.alert('Thank You', 'Your Product Has Been Successfully Bought.', [
+                                {
+                                    text: 'Done'
+                                }
+                            ])
+                        }}>
                         <Text style={{
                             color: "#FFF",
                             fontSize: 17
@@ -86,15 +92,27 @@ const Rollex = ({ navigation }) => {
 
                 <View style={{
                     width: "50%",
+                    backgroundColor: "#ADD8E6",
+                    height: 70,
+                    marginTop: 20,
+                    borderTopLeftRadius: 25,
                     alignItems: "center",
-                    justifyContent: "center",
-                    marginTop: 20
+                    justifyContent: "center"
                 }}>
+                    <TouchableOpacity
+                    onPress={() => {
+                        Alert.alert('Description', 'Everyone looks at your watch and it represents who you are, your values and your personal style.', [
+                            {
+                                text: 'Cancel'
+                            }
+                        ])
+                    }}>
                     <Text style={{
-                        color: "#62636a",
+                        color: "black",
                         fontWeight: "bold",
                         fontSize: 17
                     }}>Description</Text>
+                    </TouchableOpacity>
                 </View>
             </View>
 
